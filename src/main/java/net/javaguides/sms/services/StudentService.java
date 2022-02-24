@@ -1,5 +1,9 @@
 package net.javaguides.sms.services;
 
-public interface StudentService {
+import java.util.List;
 
+import net.javaguides.sms.entities.Student;
+
+public interface StudentService {
+	List<Student> getAllStudents();
 }
